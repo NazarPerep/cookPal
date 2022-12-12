@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Cookpal</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__background">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="img/svgicons/logo.svg" alt="website logo cookpal">
+            </a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span class="burger-top"></span>
+                    <span class="burger-mid"></span>
+                    <span class="burger-bot"></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list menu-list__left">
+                        <li class="menu__list-item underline"><a data-goto="" href="#" class="menu__link">COMMUNITY</a></li>
+                        <li class="menu__list-item underline"><a data-goto="" href="#" class="menu__link">BOOKS</a></li>
+                        <li class="menu__list-item underline"><a data-goto="#main" href="#" class="menu__link">RECEIPE INDEX</a></li>
+                        <li class="menu__list-item underline"><a data-goto="" href="#" class="menu__link">POPULAR</a></li>
+                    </ul>
+                    <ul class="menu__list menu-list__right">
+                        <li class="menu__list-item underline"><a href="#" class="menu__link _icon-login is_icon">REGISTER</a></li>
+                        <li class="menu__list-item underline"><a href="#" class="menu__link _icon-user is_icon">LOGIN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="header__search">
+        <div class="header__search-container">
+            <div class="header__search-part header__search-logo">
+                <a href="#"><img src="img/svgicons/logo.svg" alt="logo cookpal"></a>
+            </div>
+            <div class="header__search-part search-part">
+                <form action="#" class="search-part__form">
+                    <div class="search-part__main">
+                        <div class="search-part__title">
+                            <span>All Categories</span><span class="arrow-down _icon-arrow-down"></span>
+                            <div class="search-part__categories on">
+                                <ul class="search-part__list">
+                                    <li class="search-part__item"><a href="#diet">Diet</a></li>
+                                    <li class="search-part__item"><a href="#allergies">Allergies</a></li>
+                                    <li class="search-part__item"><a href="#cusines">Cusine </a></li>
+                                    <li class="search-part__item"><a href="#goals">Goals</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search-part__input">
+                            <input type="search" name="header_search" id="header_search" placeholder="Search">
+                        </div>
+                        <button class="search-part__btn _icon-dandruff" type="submit"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="header__search-part header__search-info">
+                <div class="header__search-info-logo search-info__logo-user">
+                    <a href="#" class="search-info__logo-cart _icon-cart"></a>
+                    <span></span>
+                </div>
+                <div class="search-info__logo-box">
+                    <a href="#" class="search-info__logo-link"><img src="img/icon-user.png" alt="user icon"></a>
+                    <ul class="search-info__logo-list">
+                        <li class="logo-box-icon search-info__logo-sublink _icon-user"><a href="#">Profile</a></li>
+                        <li class="logo-box-icon search-info__logo-sublink _icon-lock"><a href="#">Privacy</a></li>
+                        <li class="logo-box-icon search-info__logo-sublink _icon-bookmark"><a href="#">Collections</a></li>
+                        <li class="logo-box-icon search-info__logo-sublink"><a href="#"><img src="img/svgicons/gear.svg" alt="Settings">Settings</a></li>
+                        <li class="logo-box-icon search-info__logo-sublink _icon-login-black"><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__picture">
+        <img src="img/header-picture.png" alt="vegetables background">
+        <div class="header__picture-container">
+            <div class="header__picture-text">
+                <h1 class="header__picture-text-title"><span>Meat</span> Chicken</h1>
+                <a href="#" class="header__picture-btn">More</a>
+            </div>
+        </div>
+        <div class="header__picture-social">
+            <ul>
+                <li><a href="https://uk-ua.facebook.com" target="_blank" class="header__picture-social-item"><img src="img/svgicons/facebook.svg" alt="facebook"></a>
+                </li>
+                <li><a href="https://www.youtube.com" target="_blank" class="header__picture-social-item" ><img src="img/svgicons/youtube.svg" alt="youtube"></a></li>
+                <li><a href="https://twitter.com" target="_blank" class="header__picture-social-item"><img src="img/svgicons/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://www.pinterest.com" target="_blank" class="header__picture-social-item"><img src="img/svgicons/pinterest.svg" alt="pinterest"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <main id="main" class="main">
+    <section class="recipes">
+        <div class="recipes__container">
+            <aside class="recipes__filter">
+                <h3 class="recipes__filter-title">Filter Recipes</h3>
+                <div class="recipes__filter-category" data-spollers="767,max">
+                    <div class="block__item">
+                        <button tabindex="-1" data-spoller class="recipes__filter-category-title block__title">Diet</button>
+                        <ul class="recipes__filter-list">
+                            <li class="recipes__filter-list-item"><a href="#">Dairy Free</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Egg Free</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Sugar Free</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Gluten Free</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipes__filter-category" data-spollers="767,max">
+                    <div class="block__item">
+                        <button tabindex="-1" data-spoller class="recipes__filter-category-title block__title">Allergies</button>
+                        <ul class="recipes__filter-list">
+                            <li class="recipes__filter-list-item"><a href="#">Glutten</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Legumes</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Grain</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Fruite</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipes__filter-category" data-spollers="767,max">
+                    <div class="block__item">
+                        <button tabindex="-1" data-spoller class="recipes__filter-category-title block__title">Cusine</button>
+                        <ul class="recipes__filter-list">
+                            <li class="recipes__filter-list-item"><a href="#">Asian</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Italian</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Chines</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Thai</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipes__filter-category" data-spollers="767,max">
+                    <div class="block__item">
+                        <button tabindex="-1" data-spoller class="recipes__filter-category-title block__title">Goals</button>
+                        <ul class="recipes__filter-list">
+                            <li class="recipes__filter-list-item"><a href="#">Weight loss</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Freshness</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Activeness</a></li>
+                            <li class="recipes__filter-list-item"><a href="#">Rich Nutritions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <div class="recipes__main">
+                <div class="recipes__menu">
+                    <nav class="recipes__menu-nav">
+                        <ul class="recipes__menu-nav-list">
+                            <li class="recipes__menu-nav-list-item"><a href="#">Home</a></li>
+                            <li class="recipes__menu-nav-list-item"><a href="#">Explore</a></li>
+                            <li class="recipes__menu-nav-list-item"><a href="#">Help</a></li>
+                            <li class="recipes__menu-nav-list-item"><a href="#">Profile</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div  class="recipes__main-category">
+                    <div id="cusines" class="recipes__main-category-item">
+                        <h4 class="recipes__main-category-item-title">Cusines</h4>
+                        <div class="recipes__main-category-item-box item-box">
+                            <div class="recipes__main-category-item-box-card item-box__card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/thai.png" alt="Thai Basil Tofu Stir Fry">
+                                        <h4 class="item-box__card-title">Thai</h4>
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Thai Basil Tofu Stir Fry</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-cusines-stars_1">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="cusines__items_1">
+                                                        <input id="cusines_1_rating__5" type="radio" class="cusines_item_1" value="5" name="rating">
+                                                        <label for="cusines_1_rating__5" class="cusines_label_1"></label>
+                                                        <input id="cusines_1_rating__4" type="radio" class="cusines_item_1" value="4" name="rating">
+                                                        <label for="cusines_1_rating__4" class="cusines_label_1"></label>
+                                                        <input id="cusines_1_rating__3" type="radio" class="cusines_item_1" value="3" name="rating">
+                                                        <label for="cusines_1_rating__3" class="cusines_label_1"></label>
+                                                        <input id="cusines_1_rating__2" type="radio" class="cusines_item_1" value="2" name="rating">
+                                                        <label for="cusines_1_rating__2" class="cusines_label_1"></label>
+                                                        <input id="cusines_1_rating__1" type="radio" class="cusines_item_1" value="1" name="rating">
+                                                        <label for="cusines_1_rating__1" class="cusines_label_1"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/chines.png" alt="Kung Pao Shrimp">
+                                        <h4 class="item-box__card-title">Chines</h4>
+                                </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Kung Pao Shrimp</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-cusines-stars_2">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="cusines__items_2">
+                                                        <input id="cusines_2_rating__5" type="radio" class="cusines_item_2" value="5" name="rating">
+                                                        <label for="cusines_2_rating__5" class="cusines_label_2"></label>
+                                                        <input id="cusines_2_rating__4" type="radio" class="cusines_item_2" value="4" name="rating">
+                                                        <label for="cusines_2_rating__4" class="cusines_label_2"></label>
+                                                        <input id="cusines_2_rating__3" type="radio" class="cusines_item_2" value="3" name="rating">
+                                                        <label for="cusines_2_rating__3" class="cusines_label_2"></label>
+                                                        <input id="cusines_2_rating__2" type="radio" class="cusines_item_2" value="2" name="rating">
+                                                        <label for="cusines_2_rating__2" class="cusines_label_2"></label>
+                                                        <input id="cusines_2_rating__1" type="radio" class="cusines_item_2" value="1" name="rating">
+                                                        <label for="cusines_2_rating__1" class="cusines_label_2"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                    <img class="card-img" src="img/mexican.png" alt="Mexican Chicken">
+                                    <h4 class="item-box__card-title">Mexican</h4>
+                                </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Mexican Chicken</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">40 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="">80</span>
+                                    <span class="likes _icon-like">100</span>
+                                    <form action="#" class="card-cusines-stars_3">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="cusines__items_3">
+                                                        <input id="cusines_3_rating__5" type="radio" class="cusines_item_3" value="5" name="rating">
+                                                        <label for="cusines_3_rating__5" class="cusines_label_3"></label>
+                                                        <input id="cusines_3_rating__4" type="radio" class="cusines_item_3" value="4" name="rating">
+                                                        <label for="cusines_3_rating__4" class="cusines_label_3"></label>
+                                                        <input id="cusines_3_rating__3" type="radio" class="cusines_item_3" value="3" name="rating">
+                                                        <label for="cusines_3_rating__3" class="cusines_label_3"></label>
+                                                        <input id="cusines_3_rating__2" type="radio" class="cusines_item_3" value="2" name="rating">
+                                                        <label for="cusines_3_rating__2" class="cusines_label_3"></label>
+                                                        <input id="cusines_3_rating__1" type="radio" class="cusines_item_3" value="1" name="rating">
+                                                        <label for="cusines_3_rating__1" class="cusines_label_3"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="diet" class="recipes__main-category-item">
+                        <h4 class="recipes__main-category-item-title">Diet</h4>
+                        <div class="recipes__main-category-item-box item-box">
+                            <div class="recipes__main-category-item-box-card item-box__card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/eggs.png" alt="Egg White Bites">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Egg White Bites</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-diet-stars_1">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="diet__items_1">
+                                                        <input id="diet_1_rating__5" type="radio" class="diet_item_1" value="5" name="rating">
+                                                        <label for="diet_1_rating__5" class="diet_label_1"></label>
+                                                        <input id="diet_1_rating__4" type="radio" class="diet_item_1" value="4" name="rating">
+                                                        <label for="diet_1_rating__4" class="diet_label_1"></label>
+                                                        <input id="diet_1_rating__3" type="radio" class="diet_item_1" value="3" name="rating">
+                                                        <label for="diet_1_rating__3" class="diet_label_1"></label>
+                                                        <input id="diet_1_rating__2" type="radio" class="diet_item_1" value="2" name="rating">
+                                                        <label for="diet_1_rating__2" class="diet_label_1"></label>
+                                                        <input id="diet_1_rating__1" type="radio" class="diet_item_1" value="1" name="rating">
+                                                        <label for="diet_1_rating__1" class="diet_label_1"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/salad.png" alt="Greek Faro salad">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Greek Faro salad</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-diet-stars_2">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="diet__items_2">
+                                                        <input id="diet_2_rating__5" type="radio" class="diet_item_2" value="5" name="rating">
+                                                        <label for="diet_2_rating__5" class="diet_label_2"></label>
+                                                        <input id="diet_2_rating__4" type="radio" class="diet_item_2" value="4" name="rating">
+                                                        <label for="diet_2_rating__4" class="diet_label_2"></label>
+                                                        <input id="diet_2_rating__3" type="radio" class="diet_item_2" value="3" name="rating">
+                                                        <label for="diet_2_rating__3" class="diet_label_2"></label>
+                                                        <input id="diet_2_rating__2" type="radio" class="diet_item_2" value="2" name="rating">
+                                                        <label for="diet_2_rating__2" class="diet_label_2"></label>
+                                                        <input id="diet_2_rating__1" type="radio" class="diet_item_2" value="1" name="rating">
+                                                        <label for="diet_2_rating__1" class="diet_label_2"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/snack.png" alt="Mediterranian Diet Snack">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Mediterranian Diet Snack</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">40 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">80</span>
+                                    <span class="likes _icon-like">100</span>
+                                    <form action="#" class="card-diet-stars_3">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="diet__items_3">
+                                                        <input id="diet_3_rating__5" type="radio" class="diet_item_3" value="5" name="rating">
+                                                        <label for="diet_3_rating__5" class="diet_label_3"></label>
+                                                        <input id="diet_3_rating__4" type="radio" class="diet_item_3" value="4" name="rating">
+                                                        <label for="diet_3_rating__4" class="diet_label_3"></label>
+                                                        <input id="diet_3_rating__3" type="radio" class="diet_item_3" value="3" name="rating">
+                                                        <label for="diet_3_rating__3" class="diet_label_3"></label>
+                                                        <input id="diet_3_rating__2" type="radio" class="diet_item_3" value="2" name="rating">
+                                                        <label for="diet_3_rating__2" class="diet_label_3"></label>
+                                                        <input id="diet_3_rating__1" type="radio" class="diet_item_3" value="1" name="rating">
+                                                        <label for="diet_3_rating__1" class="diet_label_3"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipes__main-category-item">
+                        <h4 class="recipes__main-category-item-title">Bakery</h4>
+                        <div class="recipes__main-category-item-box item-box">
+                            <div class="recipes__main-category-item-box-card item-box__card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/cookies.png" alt="Oatcake">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Oatcake</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-bakery-stars_1">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="bakery__items_1">
+                                                        <input id="bakery_1_rating__5" type="radio" class="bakery_item_1" value="5" name="rating">
+                                                        <label for="bakery_1_rating__5" class="bakery_label_1"></label>
+                                                        <input id="bakery_1_rating__4" type="radio" class="bakery_item_1" value="4" name="rating">
+                                                        <label for="bakery_1_rating__4" class="bakery_label_1"></label>
+                                                        <input id="bakery_1_rating__3" type="radio" class="bakery_item_1" value="3" name="rating">
+                                                        <label for="bakery_1_rating__3" class="bakery_label_1"></label>
+                                                        <input id="bakery_1_rating__2" type="radio" class="bakery_item_1" value="2" name="rating">
+                                                        <label for="bakery_1_rating__2" class="bakery_label_1"></label>
+                                                        <input id="bakery_1_rating__1" type="radio" class="bakery_item_1" value="1" name="rating">
+                                                        <label for="bakery_1_rating__1" class="bakery_label_1"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/cake.png" alt="Chocolate muffins">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Chocolate muffins</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">30 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">35</span>
+                                    <span class="likes _icon-like">55</span>
+                                    <form action="#" class="card-bakery-stars_2">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="bakery__items_2">
+                                                        <input id="bakery_2_rating__5" type="radio" class="bakery_item_2" value="5" name="rating">
+                                                        <label for="bakery_2_rating__5" class="bakery_label_2"></label>
+                                                        <input id="bakery_2_rating__4" type="radio" class="bakery_item_2" value="4" name="rating">
+                                                        <label for="bakery_2_rating__4" class="bakery_label_2"></label>
+                                                        <input id="bakery_2_rating__3" type="radio" class="bakery_item_2" value="3" name="rating">
+                                                        <label for="bakery_2_rating__3" class="bakery_label_2"></label>
+                                                        <input id="bakery_2_rating__2" type="radio" class="bakery_item_2" value="2" name="rating">
+                                                        <label for="bakery_2_rating__2" class="bakery_label_2"></label>
+                                                        <input id="bakery_2_rating__1" type="radio" class="bakery_item_2" value="1" name="rating">
+                                                        <label for="bakery_2_rating__1" class="bakery_label_2"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="recipes__main-category-item-box-card">
+                                <a href="#">
+                                    <div class="item-box__card-img">
+                                        <img class="card-img" src="img/bread.png" alt="Ukranian bread">
+                                    </div>
+                                </a>
+                                <div class="item-box__card-name">
+                                    <h6>Ukranian bread</h6>
+                                    <span class="item-box__card-price _icon-dolar">123</span>
+                                </div>
+                                <div class="item-box__card-time-and-taste">
+                                    <span class="time _icon-clock">40 minutes</span>
+                                    <span class="taste">Super Dry</span>
+                                </div>
+                                <div class="item-box__card-reviews">
+                                    <span class="comments"><img src="img/svgicons/chat.svg" alt="chat">80</span>
+                                    <span class="likes _icon-like">100</span>
+                                    <form action="#" class="card-bakery-stars_3">
+                                        <div class="card-stars__item">
+                                            <div class="rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="bakery__items_3">
+                                                        <input id="bakery_3_rating__5" type="radio" class="bakery_item_3" value="5" name="rating">
+                                                        <label for="bakery_3_rating__5" class="bakery_label_3"></label>
+                                                        <input id="bakery_3_rating__4" type="radio" class="bakery_item_3" value="4" name="rating">
+                                                        <label for="bakery_3_rating__4" class="bakery_label_3"></label>
+                                                        <input id="bakery_3_rating__3" type="radio" class="bakery_item_3" value="3" name="rating">
+                                                        <label for="bakery_3_rating__3" class="bakery_label_3"></label>
+                                                        <input id="bakery_3_rating__2" type="radio" class="bakery_item_3" value="2" name="rating">
+                                                        <label for="bakery_3_rating__2" class="bakery_label_3"></label>
+                                                        <input id="bakery_3_rating__1" type="radio" class="bakery_item_3" value="1" name="rating">
+                                                        <label for="bakery_3_rating__1" class="bakery_label_3"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+    <div class="footer__background">
+        <div class="footer__container">
+            <div class="footer__part-left part-left">
+                <div class="part-left__rights">
+                    <div class="part-left__rights-websites-logo">
+                        <a href="#">
+                            <img src="img/fotter-logo.png" alt="cookpal logo">
+                        </a>
+                    </div>
+                    <div class="part-left__rights-text">
+                        All Rights Reserved
+                    </div>
+                </div>
+            </div>
+            <div class="footer__part-center part-center">
+                <div class="part-center__nav-fotter">
+                    <div data-spollers="973,max" class="block">
+                        <div class="block__item">
+                            <button tabindex="-1" data-spoller class="part-center__nav-fotter-list-title block__title">Fresh Recipe</button>
+                            <ul class="part-center__nav-fotter-list">
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Recipes</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Winter salads</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Organic chicken</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Beef and Mutton</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Flavoured Milk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block" data-spollers="973,max">
+                        <div class="block__item">
+                            <button tabindex="-1" data-spoller class="part-center__nav-fotter-list-title block__title">In News</button>
+                            <ul class="part-center__nav-fotter-list">
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Our Blogs</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Contests/Sweepsatkes</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Video</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">New Releases</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Newsletters</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block" data-spollers="973,max">
+                        <div class="block__item">
+                            <button tabindex="-1" data-spoller class="part-center__nav-fotter-list-title block__title">About US</button>
+                            <ul class="part-center__nav-fotter-list">
+                                <li class="part-center__nav-fotter-list-item"><a href="#">FAQ</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Our Board</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Our Staff</a></li>
+                                <li class="part-center__nav-fotter-list-item"><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__part-right part-right">
+                <div class="part-right__newsletter-title">
+                    <h5>Join Our Newsletter</h5>
+                </div>
+                <div class="part-right__fotter-form">
+                    <form action="#">
+                        <div class="part-right__footer-form-mail footer-form-mail">
+                            <input type="text" class="footer-form-mail-input" placeholder="Email">
+                            <span></span>
+                            <div class="footer-form-mail-btn _icon-mailgo"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="part-right__fotter-social fotter-social">
+                    <ul class="fotter-social__list">
+                        <li><a class="fotter-social__list-item _icon-facebook-white footer-facebook" href="#"></a></li>
+                        <li><a class="fotter-social__list-item _icon-instagram-white footer-intagram" href="#"></a></li>
+                        <li><a class="fotter-social__list-item _icon-twitter-white footer-twitter" href="#"></a></li>
+                        <li><a class="fotter-social__list-item _icon-pinterest-white footer-pinterest" href="#"></a></li>
+                        <li><a class="fotter-social__list-item _icon-youtube-white footer-youtube" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
